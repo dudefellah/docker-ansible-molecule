@@ -15,7 +15,7 @@ RUN apt-get update && \
         "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
         $(lsb_release -cs) stable" > /etc/apt/sources.list.d/docker.list && \
     apt-get update && \
-    apt-get -y install docker-ce docker-ce-cli containerd.io && \
+    apt-get -y install docker-ce docker-ce-cli containerd.io podman && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists && \
     chmod 755 /entrypoint.sh && \
