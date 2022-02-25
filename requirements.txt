@@ -1,5 +1,5 @@
-ansible==3.0.0
-ansible-lint==5.0.2
-molecule[docker]==3.2.3
-molecule[podman]==3.2.3
-pytest-testinfra==6.1.0
+ansible==5.4.0
+ansible-lint==5.4.0
+molecule[docker]==3.6.1
+molecule[podman]==3.6.1
+pytest-testinfra==6.6.0
